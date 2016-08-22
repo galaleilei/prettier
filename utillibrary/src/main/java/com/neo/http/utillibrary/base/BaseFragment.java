@@ -1,8 +1,10 @@
 package com.neo.http.utillibrary.base;
 
-import android.app.Fragment;
+
+
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,7 +12,7 @@ import android.view.ViewGroup;
 /**
  * Created by Administrator on 2016/8/20 0020.
  */
-public abstract class BaseFragment extends Fragment{
+public abstract class BaseFragment extends Fragment {
 
     @Nullable
     @Override
