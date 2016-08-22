@@ -40,7 +40,7 @@ public class HomePageActivity extends AppCompatActivity {
         setContentView(R.layout.home_view);
         ButterKnife.bind(this);
 
-        homepageRbShouye.performClick();//虚拟点击首页
+        homepageRbShouye.performClick();//虚拟点击
     }
 
     @OnClick({R.id.homepage_rb_shouye, R.id.homepage_rb_shequ, R.id.homepage_rb_zixun, R.id.homepage_rb_meigou, R.id.homepage_rb_mine})
